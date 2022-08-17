@@ -1,0 +1,43 @@
+.parrafo{
+    background-color: bisque;
+    font-family: fantasy;
+    color: blueviolet;
+}
+#acceso{
+    background-color: brown;
+    border: dotted;
+    color: blue;
+    font-size: larger;
+}
+#recuadro{
+    background-image: url("img/hotline.jpg");
+    color: rgb(5, 5, 5);
+    width: 700px;
+    height: 450px;
+    border-radius: 15px;
+    font-size: 30px;
+    opacity: 0.4;
+    text-align: justify;
+    background-position: center;
+    background-size: cover;
+}
+#recuadro1{
+    border-radius: 20px;
+    background-color: #ddd;
+    width: 200px;
+    padding: 10px;
+}
+#recuadro1:hover{
+    width: 300px;
+}
+#recuadro2{
+    border-radius: 20px;
+    background-color: #ff0;
+    width: 200px;
+    padding: 10px;
+    transition: width 1s;
+    -webkit-transition: width 1s;
+}
+#recuadro2:hover{
+    width: 1000px;
+}
