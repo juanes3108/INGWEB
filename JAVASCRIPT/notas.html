@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nota1,nota2,nota3,promedio;
+        nota1=parseFloat(prompt("Ingrese nota 1"));
+        nota2=parseFloat(prompt("Ingrese nota 2"));
+        nota3=parseFloat(prompt("Ingrese nota 3"));
+
+        promedio =(nota1+nota2+nota3)/3;
+
+        if(promedio<=3.0){
+            document.write("perdio"+promedio);
+        }else if(promedio>=3.0 && promedio<=4.0){
+            document.write("paso con una nota buena "+promedio);
+        }else if(promedio>=4.0 && promedio<=5.0){
+            document.write("paso con una nota excelente "+promedio);
+        }
+    </script>
+</body>
+</html>
